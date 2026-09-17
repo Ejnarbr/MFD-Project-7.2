@@ -1,0 +1,28 @@
+{
+  "name": "sandboxed-agent-env",
+  "image": "rocker/rstudio:latest",
+  "features": {
+    "ghcr.io/devcontainers/features/node:1": {},
+    "ghcr.io/anthropics/devcontainer-features/claude-code:1": {}
+  },
+  "containerEnv": {
+    "PASSWORD": "Mads Albertsen"
+  },
+  "forwardPorts": [8787],
+  "portsAttributes": {
+    "8787": {
+      "label": "RStudio",
+      "onAutoForward": "notify"
+    }
+  },
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "tomoki1207.pdf"
+      ]
+    }
+  },
+  "postCreateCommand": "apt-get update && apt-get install -y --no-install-recommends curl wget jq poppler-utils && R -e \"install.packages(c('httr','curl','jsonlite','rvest','pdftools'), repos='https://cloud.r-project.org')\"",
+  "overrideCommand": false,
+  "remoteUser": "root"
+}

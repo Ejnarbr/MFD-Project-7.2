@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "defaultMode": "default",
+    "ask": [
+      "WebFetch",
+      "WebSearch",
+      "Bash(curl *)",
+      "Bash(wget *)"
+    ]
+  }
+}

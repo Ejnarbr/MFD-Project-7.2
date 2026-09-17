@@ -1,0 +1,22 @@
+# Large / binary data — not diffable, bloats repo history.
+# Referenced by path/accession in code instead of being version-controlled.
+*.xlsx
+*.xls
+*.pdf
+dataset_S3.tsv
+
+# R / RStudio
+.Rproj.user/
+.Rhistory
+.RData
+.Ruserdata
+
+# OS / editor cruft
+.DS_Store
+Thumbs.db
+
+# Secrets — never commit these
+.env
+.env.*
+*.pem
+*.key
