@@ -3,6 +3,7 @@
 *.xlsx
 *.xls
 *.pdf
+dataset_S1.tsv
 dataset_S3.tsv
 
 # R / RStudio
