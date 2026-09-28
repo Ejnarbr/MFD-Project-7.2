@@ -3,7 +3,13 @@
   "image": "rocker/rstudio:latest",
   "features": {
     "ghcr.io/devcontainers/features/node:1": {},
-    "ghcr.io/anthropics/devcontainer-features/claude-code:1": {}
+    "ghcr.io/anthropics/devcontainer-features/claude-code:1": {},
+    "ghcr.io/devcontainers/features/common-utils:2": {
+      "remoteUser": "rstudio",
+      "installZsh": true,
+      "installOhMyZsh": true,
+      "upgradePackages": true
+    }
   },
   "containerEnv": {
     "PASSWORD": "${localEnv:RSTUDIO_PASSWORD}"
@@ -22,7 +28,7 @@
       ]
     }
   },
-  "postCreateCommand": "git config --global user.name \"Ejnar\" && git config --global user.email \"330485648+Ejnarbr@users.noreply.github.com\" && apt-get update && apt-get install -y --no-install-recommends curl wget jq poppler-utils && R -e \"install.packages(c('httr','curl','jsonlite','rvest','pdftools'), repos='https://cloud.r-project.org')\"",
+  "postCreateCommand": "git config --global user.name \"Ejnar\" && git config --global user.email \"330485648+Ejnarbr@users.noreply.github.com\" && sudo apt-get update && sudo apt-get install -y --no-install-recommends curl wget jq poppler-utils && R -e \"install.packages(c('httr','curl','jsonlite','rvest','pdftools'), repos='https://cloud.r-project.org')\"",
   "overrideCommand": false,
-  "remoteUser": "root"
+  "remoteUser": "rstudio"
 }

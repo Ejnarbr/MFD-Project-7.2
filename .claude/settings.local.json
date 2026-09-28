@@ -1,0 +1,15 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(echo \"--- Test folder contents ---\"; find /home/rstudio/Test -type f; echo \"--- mfd_r_scripts contents ---\"; ls -la /workspaces/MFD_7.2_Project/mfd_r_scripts)",
+      "Read(//home/rstudio/Test/**)",
+      "Bash(rmdir /home/rstudio/Test && echo \"removed empty Test folder\")",
+      "Bash(namei -l /workspaces/MFD_7.2_Project/mfd_r_scripts/mfd_r_scripts.Rproj)",
+      "Bash(python3 -c \"import json,sys; data=json.load\\(sys.stdin\\); [print\\(r['full_name'], '-', r.get\\('description'\\) or ''\\) for r in data]\")",
+      "Bash(mkdir -p /tmp/claude-0/-workspaces-MFD-7-2-Project/ffc3a178-197b-41ef-b4e3-f9d9f117550b/scratchpad/gbif_biom)"
+    ],
+    "additionalDirectories": [
+      "/home/rstudio/Test"
+    ]
+  }
+}
