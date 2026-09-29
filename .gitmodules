@@ -1,0 +1,39 @@
+[submodule "MFD_repo_clones/mfd_danish_vs_global_microbiome_section"]
+	path = MFD_repo_clones/mfd_danish_vs_global_microbiome_section
+	url = https://github.com/cmc-aau/mfd_danish_vs_global_microbiome_section.git
+[submodule "MFD_repo_clones/mfd-data"]
+	path = MFD_repo_clones/mfd-data
+	url = https://github.com/cmc-aau/mfd-data.git
+[submodule "MFD_repo_clones/mfd_hab_class"]
+	path = MFD_repo_clones/mfd_hab_class
+	url = https://github.com/cmc-aau/mfd_hab_class.git
+[submodule "MFD_repo_clones/MFDkort"]
+	path = MFD_repo_clones/MFDkort
+	url = https://github.com/cmc-aau/MFDkort.git
+[submodule "MFD_repo_clones/MFD-LR"]
+	path = MFD_repo_clones/MFD-LR
+	url = https://github.com/Serka-M/MFD-LR.git
+[submodule "MFD_repo_clones/mfd_metadata"]
+	path = MFD_repo_clones/mfd_metadata
+	url = https://github.com/cmc-aau/mfd_metadata.git
+[submodule "MFD_repo_clones/mfd_nitrifiers"]
+	path = MFD_repo_clones/mfd_nitrifiers
+	url = https://github.com/KalinkaKnudsen/mfd_nitrifiers.git
+[submodule "MFD_repo_clones/mfd_novelty_section"]
+	path = MFD_repo_clones/mfd_novelty_section
+	url = https://github.com/cmc-aau/mfd_novelty_section.git
+[submodule "MFD_repo_clones/mfd_overview"]
+	path = MFD_repo_clones/mfd_overview
+	url = https://github.com/cmc-aau/mfd_overview.git
+[submodule "MFD_repo_clones/mfd_plasmid_classification"]
+	path = MFD_repo_clones/mfd_plasmid_classification
+	url = https://github.com/cmc-aau/mfd_plasmid_classification.git
+[submodule "MFD_repo_clones/MfD-spatial-integration"]
+	path = MFD_repo_clones/MfD-spatial-integration
+	url = https://github.com/MicrobialDarkMatter/MfD-spatial-integration.git
+[submodule "MFD_repo_clones/mfd_sr_mags"]
+	path = MFD_repo_clones/mfd_sr_mags
+	url = https://github.com/cmc-aau/mfd_sr_mags.git
+[submodule "MFD_repo_clones/mfd_wiki"]
+	path = MFD_repo_clones/mfd_wiki
+	url = https://github.com/cmc-aau/mfd_wiki.git
