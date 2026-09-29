@@ -28,7 +28,7 @@
       ]
     }
   },
-  "postCreateCommand": "git config --global user.name \"Ejnar\" && git config --global user.email \"330485648+Ejnarbr@users.noreply.github.com\" && sudo apt-get update && sudo apt-get install -y --no-install-recommends curl wget jq poppler-utils && R -e \"install.packages(c('httr','curl','jsonlite','rvest','pdftools'), repos='https://cloud.r-project.org')\"",
+  "postCreateCommand": "git config --global user.name \"Ejnar\" && git config --global user.email \"330485648+Ejnarbr@users.noreply.github.com\" && git submodule update --init && sudo apt-get update && sudo apt-get install -y --no-install-recommends curl wget jq poppler-utils && R -e \"install.packages(c('httr','curl','jsonlite','rvest','pdftools'), repos='https://cloud.r-project.org')\"",
   "overrideCommand": false,
   "remoteUser": "rstudio"
 }
